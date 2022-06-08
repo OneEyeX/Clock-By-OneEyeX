@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset=" utf - 8 ">
+    <title> Clock </title>
+    <link rel=" stylesheet " href=" style.css ">
+
+</head>
+
+<body>
+
+    <div class=" container ">
+        <header class="page-header" style="padding:10%">
+            <center>
+                <h1 style="color: rgb(236, 236, 236);">
+                    <br>
+                    CLOCK BY <br>
+                    <a class="foot" href="https://github.com/OneEyeX">
+                        OneEyeX
+                    </a>
+                </h1>
+            </center>
+
+        </header>
+        <div class=" clock ">
+            <div class=" circle " style="--clr:#04fc43;" id="sc"> <i></i> </div>
+            <div class=" circle circle2 " style="--clr:#fee800;" id="mn"> <i> </i> </div>
+            <div class=" circle circle3 " style="--clr:#ff2972;" id="hr"> <i> </i> </div>
+            <span style="--i:1;"> <b> 1 </b> </span>
+            <span style="--i:2;"> <b> 2 </b> </span>
+            <span style="--i:3;"> <b> 3 </b> </span>
+            <span style="--i:4;"> <b> 4 </b> </span>
+            <span style="--i:5;"> <b> 5 </b> </span>
+            <span style="--i:6;"> <b> 6 </b> </span>
+            <span style="--i:7;"> <b> 7 </b> </span>
+            <span style="--i:8;"> <b> 8 </b> </span>
+            <span style="--i:9;"> <b> 9 </b> </span>
+            <span style="--i:10;"> <b> 10 </b> </span>
+            <span style="--i:11;"> <b> 11 </b> </span>
+            <span style="--i:12;"> <b> 12 </b> </span>
+        </div>
+
+        <!-- digital clock -->
+        <div id="time">
+            <div id="hours" style="--clr:#ff2972;"> 00 </div>
+            <div id="minutes" style="--clr:#fee800;"> 00 </div>
+            <div id="seconds" style="--clr:#04fc43;"> 00 </div>
+            <div id="ampm"> AM </div>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+    <br>
+    <!-- <footer>
+        <center>
+            <div>
+                Created By Chedly Chahed
+            </div>
+        </center>
+    </footer> -->
+    <footer>
+        <center>
+            <span id="year">
+                <script>
+                    document.getElementById("year").innerHTML = new Date().getFullYear();
+                </script>
+            </span>
+            © Created by
+            <a class="foot" href="https://github.com/OneEyeX">
+                OneEyeX
+            </a>
+            <small>
+                (
+                <a class="foot" href="https://www.linkedin.com/in/chedly-chahed-a178a9196/">
+                    Chedly
+                    Chahed
+                </a>
+                )
+            </small>.
+        </center>
+    </footer>
+</body>
+
+
+</html>
